@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Geovanni Rojas ">
+    <meta name="description" content="Ejercicio formulario">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Registro en nuestra tienda</h1>
+    <form action="">
+        <fieldset>
+            <p><label for="nameField">Nombre de usuario :</label>
+                <br>
+                <input type="text" id="nameField" placeholder="Ej: Geovanni" autofocus="" required="" ></p>
+
+
+            <p><label for="mailField">Email :</label>
+                <br>
+                <input type="email" id="mailField" placeholder="Ej: geovanni@mail.com" required="" >
+            </p>
+
+            <p> <label for="ageField">Edad :</label>
+                <br>
+                <input type="number" id="ageField" placeholder="Ej: 21" required="" >
+            </p>
+            <p><label for="dateBirth">Genero</label>
+                <br>
+                <input type="radio" name="sexBox">Masculino
+                <br>
+                <input type="radio" name="sexBox">Femenino
+            </p>
+            <p><label for="selectField">Recomendado por : </label>
+                <br>
+                <select id="selectField">
+                  <option value="1">Google</option>
+                  <option value="1">Amigo</option>
+                  <option value="1">Redes Sociales</option>
+                </select>
+            </p>
+            <p><label for="commentsField">Comentarios : </label>
+                <br>
+                <textarea name="commentsField" rows="3" cols="30"></textarea>
+            </p>
+            <p>
+                <label for="acceptCheck">Acepto Terminos y Condiciones</label>
+                <br>
+                <input type="checkbox" id="acceptCheck">
+            </p>
+            <p><input type="submit" value="registrar"></p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="45" fecha="2016-12-23">
+	<cliente> 
+  		<nombre>Geovanni </nombre>
+  		<telefono>56934469</telefono>
+	</cliente>
+  	<articulos id="14">
+  		<descripcion>Disco Duro </descripcion>
+  		<precio-unitario>443</precio-unitario>
+  		<precio-final>443</precio-final>
+  		<cantidad>1</cantidad>
+  	</articulos>
+  <precio-total>443.0</precio-total>
+</factura>
